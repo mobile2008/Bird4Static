@@ -8,9 +8,9 @@ URL0=https://antifilter.download/list/allyouneed.lst
 
  #SCRIPT VARIABE
 BLACKLIST=$HOMEPATH/lists/antifilter.list
-ROUTE_FORCE_ISP=/opt/etc/bird4-force-isp.list
-ROUTE_FORCE_VPN1=/opt/etc/bird4-force-vpn1.list
-ROUTE_BASE_VPN1=/opt/etc/bird4-base-vpn1.list
+ROUTE_FORCE_ISP=/tmp/bird4-force-isp.list
+ROUTE_FORCE_VPN1=/tmp/bird4-force-vpn1.list
+ROUTE_BASE_VPN1=/tmp/bird4-base-vpn1.list
 VPN1TXT=$HOMEPATH/lists/user-vpn.list
 ISPTXT=$HOMEPATH/lists/user-isp.list
 MD5_SUM=$HOMEPATH/scripts/sum.md5
