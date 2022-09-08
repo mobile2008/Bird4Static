@@ -12,7 +12,7 @@
 2) Выполнить:
 ```
   opkg install git git-http
-  git clone https://github.com/DennoN-RUS/Bird4Static.git
+  git clone https://github.com/mobile2008/Bird4Static.git
   chmod +x ./Bird4Static/install.sh
   ./Bird4Static/install.sh 
 ```
