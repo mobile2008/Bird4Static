@@ -1,19 +1,19 @@
 #!/bin/sh
 
  #USER VARIABLE
-ISP=ISPINPUT
-VPN1=VPN1INPUT
+ISP=eth2.4
+VPN1=nwg0
 HOMEPATH=/opt/root/Bird4Static
 URL0=https://antifilter.download/list/allyouneed.lst
 
  #SCRIPT VARIABE
-BLACKLIST=$HOMEPATH/lists/antifilter.list
+BLACKLIST=/tmp/antifilter.list
 ROUTE_FORCE_ISP=/tmp/bird4-force-isp.list
 ROUTE_FORCE_VPN1=/tmp/bird4-force-vpn1.list
 ROUTE_BASE_VPN1=/tmp/bird4-base-vpn1.list
 VPN1TXT=$HOMEPATH/lists/user-vpn.list
 ISPTXT=$HOMEPATH/lists/user-isp.list
-MD5_SUM=$HOMEPATH/scripts/sum.md5
+MD5_SUM=/tmp/sum.md5
 
  #IPRANGE FUNCTION
 ipr_func() {
